@@ -1,0 +1,123 @@
+@font-face {
+  font-family: neueMachine;
+  src: url("fonts/PPNeueMachina-InktrapRegular.ttf");
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+body{
+  font-family: neueMachine; 
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 50px;
+}
+
+
+.first-section {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.header-container {
+  margin-bottom: 50px;
+}
+
+.header-container a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 25px;
+}
+
+.first-section a{
+  text-align: center;
+}
+
+.image-container {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn{
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  border-radius: 30px;
+}
+.btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+h1 { 
+  font-size: 100px; 
+}
+
+.header-container a{ 
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h4{
+  font-size: 22px;
+}
+.second-section{
+  margin-top: 100px;
+  font-size: 16px;
+}
+
+.third-section{
+  margin-top: 100px;
+  font-size: 16px;
+}
+
+.authors img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fourth-section{
+  margin-top: 100px;
+  font-size: 16px;
+}
+
+.ticket{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  border-radius: 30px;
+}
+.ticket:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.fifth-section{
+  margin-top: 100px;
+  font-size: 16px;
+  float: left;
+}

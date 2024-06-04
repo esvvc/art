@@ -1,0 +1,49 @@
+/* Для ширины 1024 пикселей и меньше */
+@media screen and (max-width: 1024px) {
+h1 { font-size: 60px; }
+.header-container a{ font-size: 12px;}
+h4 { font-size: 18px;}
+.container { padding: 35px;}
+.image-container {
+    width: 200px;
+    height: 200px;
+    margin: 5px;}
+.btn{ font-size: 18px;}
+.second-section p{ font-size: 14px;}
+h2{font-size: 30px;}
+.second-section {margin-top: 60px;}
+.third-section {margin-top: 60px; font-size: 14px;}
+.authors img {
+    width: 100%;
+    height: 100%;
+    margin: 5px;}
+.fourth-section {margin-top: 60px; font-size: 14px;}
+.fifth-section {margin-top: 60px; font-size: 14px;}
+.ticket {font-size: 18px;}
+.mb-3{ font-size: 14px;}
+}
+
+/* Для ширины 600 пикселей и меньше */
+@media screen and (max-width: 600px) {
+h1 { font-size: 35px; }
+.header-container a{ font-size: 10px;}
+h4 { font-size: 13px;}
+.container { padding: 20px;}
+.header-container {margin-top: 10px;}
+.btn{font-size: 13px;}
+.image-container {
+    width: 150px;
+    height: 150px;
+    margin: 5px;}
+.second-section p{font-size: 10px;}
+h2{font-size: 25px;}
+.second-section {margin-top: 40px;}
+.third-section {margin-top: 40px; font-size: 10px;}
+.fourth-section {margin-top: 40px; font-size: 10px;}
+.fifth-section {margin-top: 40px; font-size: 10px;}
+.authors img {
+    width: 100%;
+    height: 150px;}
+.ticket {font-size: 13px;}
+.mb-3 {font-size: 10px;}
+}
